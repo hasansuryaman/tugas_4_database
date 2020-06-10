@@ -23,6 +23,7 @@ CREATE TABLE sepakbola (id_pemain INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nama_
 ALTER TABLE sepakbola RENAME TO sepakbola_indonesia;
 ```
 atau
+
 ```mysql
 RENAME TABLE sepakbola TO sepakbola_indonesia;
 ```
