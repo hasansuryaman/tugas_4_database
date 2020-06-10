@@ -30,5 +30,5 @@ RENAME TABLE sepakbola TO sepakbola_indonesia;
 
 ### 5. Hapus table sepakbola_indonesia dan database permainan
 ```mysql
-DROP TABLE sepakbola_indonesia;
+DROP TABLE IF EXISTS sepakbola_indonesia, permainan;
 ```
